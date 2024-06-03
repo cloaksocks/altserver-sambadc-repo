@@ -165,7 +165,7 @@ server
  •  •  • Создадим домен с SAMBA_INTERNAL
 
 	Создание домена одной командой:
-samba-tool domain provision --realm=ALT.LOCAL --domain ALT --adminpass='1qaz@WSX' --dns-backend=SAMBA_INTERNAL --server-role=dc --use-rfc2307 --option="dns forwarder=192.168.20.1"
+samba-tool domain provision --realm=ALT.LOCAL --domain ALT --adminpass='PA$$WORD' --dns-backend=SAMBA_INTERNAL --server-role=dc --use-rfc2307 --option="dns forwarder=192.168.20.1"
 
 
 	Запуск службы
@@ -258,7 +258,7 @@ yandex-browser-stable а не yandex-browser
 /var/lib/samba/sysvol/alt.local/Policies/{идентификтор политики}/Machine/Registry.pol
 /var/lib/samba/sysvol/alt.local/Policies/{идентификтор политики}/User/Registry.pol
 
-		при восстановлении бекапа - копировать эти файлы в каталоги групповых политик
+	при восстановлении бекапа - копировать эти файлы в каталоги групповых политик
 
 
 
