@@ -18,7 +18,7 @@ done
 bash repo_skel.sh
 
         создастся каталог /root/repo
-        положим RPM пакеты в /root/repo/x86_64/RPMS.alt
+        положим RPM пакеты в /root/repo/x86_64/RPMS.classic
 
 
 
