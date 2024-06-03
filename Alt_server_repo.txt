@@ -77,7 +77,7 @@ apachectl restart
         Пропишем в системе на клиентских машинах:
         Если вы опубликовали данный каталог (repo) на веб-сервере по адресу repo/x86_64, полный путь для добавления в систему (в файл sources.list) получается такой:
 
-rpm http://legion.alt.local/repo x86_64 classic
+rpm http://server.alt.local/repo x86_64 classic
 
         устанавливайте пакеты через apt-get или через групповые политики SambaDC.
 
